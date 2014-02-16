@@ -5,3 +5,21 @@
  */
 
 include_once 'off_basic_page_feature.features.inc';
+
+/**
+ * Implements hook_collabco_integration().
+ */
+function off_basic_page_feature_collabco_integration() {
+  // Add links to views if a module wants to do that.
+  return array(
+    'collabco_groups_feature' => array(
+      'entity' => array(
+        'node'=> array(
+          'basic_page' => array(
+            'add_content_link' => TRUE,
+          ),
+        ),
+      ),
+    ),
+  );
+}
