@@ -129,7 +129,7 @@ function off_basic_page_feature_strongarm() {
   $strongarm->name = 'node_options_basic_page';
   $strongarm->value = array(
     0 => 'status',
-    1 => 'promote',
+    1 => 'revision',
   );
   $export['node_options_basic_page'] = $strongarm;
 
