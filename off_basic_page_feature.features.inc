@@ -19,7 +19,7 @@ function off_basic_page_feature_ctools_plugin_api($module = NULL, $api = NULL) {
 function off_basic_page_feature_node_info() {
   $items = array(
     'basic_page' => array(
-      'name' => t('Basic Page'),
+      'name' => t('Page'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
