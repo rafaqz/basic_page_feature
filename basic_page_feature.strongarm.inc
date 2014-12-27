@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_basic_page_feature.strongarm.inc
+ * basic_page_feature.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function off_basic_page_feature_strongarm() {
+function basic_page_feature_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

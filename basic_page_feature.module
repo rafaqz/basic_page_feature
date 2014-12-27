@@ -4,15 +4,15 @@
  * Code for the Off Basic Page Feature feature.
  */
 
-include_once 'off_basic_page_feature.features.inc';
+include_once 'basic_page_feature.features.inc';
 
 /**
- * Implements hook_collabco_integration().
+ * Implements hook_integration().
  */
-function off_basic_page_feature_collabco_integration() {
+function basic_page_feature_integration() {
   // Add links to views if a module wants to do that.
   return array(
-    'collabco_groups_feature' => array(
+    'groups_feature' => array(
       'entity' => array(
         'node'=> array(
           'basic_page' => array(

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_basic_page_feature.features.user_permission.inc
+ * basic_page_feature.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function off_basic_page_feature_user_default_permissions() {
+function basic_page_feature_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'create basic_page content'.

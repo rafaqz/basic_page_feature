@@ -1,7 +1,7 @@
 name = OFF Basic Page Feature
 core = 7.x
 package = Collabco
-project = collabco_basic_page_feature
+project = basic_page_feature
 dependencies[] = features
 dependencies[] = node
 features[ctools][] = strongarm:strongarm:1
