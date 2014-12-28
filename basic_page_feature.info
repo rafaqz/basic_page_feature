@@ -1,6 +1,6 @@
-name = OFF Basic Page Feature
+name = Basic Page Feature
 core = 7.x
-package = Collabco
+package = Features
 project = basic_page_feature
 dependencies[] = features
 dependencies[] = node
